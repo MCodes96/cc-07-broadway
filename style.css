@@ -6,6 +6,9 @@ body {
 
 header {
   background-color: #333333;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
 nav {
@@ -18,10 +21,14 @@ nav li {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 12px;
+  display: inline-block;
+  width: 80px;
 }
 
 main {
   text-align: center;
+  position: relative;
+  top: 80px;
 }
 
 main h1 {
@@ -94,10 +101,13 @@ footer p {
 .supporting .col {
   font-family: 'Raleway', sans-serif;
   text-align: center;
+  display: inline-block;
+  width: 200px;
 }
 
 .supporting img {
   height: 32px;
+  margin: 50px 0 0 0;
 }
 
 .supporting h2 {
